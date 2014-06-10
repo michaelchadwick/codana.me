@@ -1,0 +1,19 @@
+# Site settings
+title: Codana.me
+email: first name@domain
+description: "code and audio (and audio code) developments by michael chadwick"
+baseurl: ""
+url: "http://codana.me"
+include: mus.html
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Custom Site settings
+tw_username: mjchadwick
+gh_username: michaelchadwick
+gh_link: https://github.com/michaelchadwick
+tw_link: https://twitter.com/mjchadwick
+bc_link: https://nebyoolae.bandcamp.com
+sc_link: http://soundcloud.com/nebyoolae
