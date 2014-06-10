@@ -1,5 +1,6 @@
 # Site settings
 title: Codana.me
+extra_title: " | home of audio dev michael chadwick"
 email: first name@domain
 description: "code and audio (and audio code) developments by michael chadwick"
 baseurl: ""
