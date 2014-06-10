@@ -1,0 +1,27 @@
+#projects-index {
+  background: #eee;
+  float: right;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  padding: 20px;
+}
+.projects {
+  float: left;
+}
+.projects ul {
+  margin-bottom: 5px;
+}
+.projects ul, .projects li {
+  clear: both;
+}
+.projects li {
+  margin-left: 15px;
+}
+.projects-code, .projects-audio {
+  margin: 0 30px 0 10px;
+  transition: All 0.5s;
+  -moz-transition: All 0.5s; /* Firefox 4 */
+  -webkit-transition: All 0.5s; /* Safari and Chrome */
+  -o-transition: All 0.5s; /* Opera */
+}
