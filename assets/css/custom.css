@@ -1,4 +1,4 @@
-#projects-index {
+#projects {
   background: #eee;
   float: right;
   font-size: 0.8em;
@@ -6,22 +6,13 @@
   margin-left: 30px;
   padding: 20px;
 }
-.projects {
-  float: left;
-}
-.projects ul {
+#projects ul {
   margin-bottom: 5px;
 }
-.projects ul, .projects li {
+#projects ul, 
+#projects li {
   clear: both;
 }
-.projects li {
+#projects li {
   margin-left: 15px;
-}
-.projects-code, .projects-audio {
-  margin: 0 30px 0 10px;
-  transition: All 0.5s;
-  -moz-transition: All 0.5s; /* Firefox 4 */
-  -webkit-transition: All 0.5s; /* Safari and Chrome */
-  -o-transition: All 0.5s; /* Opera */
 }
