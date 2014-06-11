@@ -12,9 +12,11 @@ markdown: kramdown
 permalink: pretty
 
 # Custom Site settings
-tw_username: mjchadwick
 gh_username: michaelchadwick
+tw_username: mjchadwick
+sc_username: nebyoolae
+bc_username: nebyoolae
 gh_link: https://github.com/michaelchadwick
 tw_link: https://twitter.com/mjchadwick
-bc_link: https://nebyoolae.bandcamp.com
 sc_link: http://soundcloud.com/nebyoolae
+bc_link: https://nebyoolae.bandcamp.com
