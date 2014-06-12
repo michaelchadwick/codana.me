@@ -8,6 +8,8 @@ tags: windows win7 apps faves list utilities
 
 People love lists. The Internet *especially* loves lists. It's no surprise, really: a note followed by another note in a simple, structured order is easy to follow and gain knowledge from. Thus, it's time to kick this new blog off with a tried-and-true, yet still hopefully useful, list of my favorite Windows apps.
 
+<!--more-->
+
 I generally pilot around version 7 of MS's flagship OS, but most of these apps probably work on 8 (or even older versions). Also, this is not an exhaustive list of all the apps I use by any means, but it contains the ones that most readily come to mind while posting, which is really the metric I'm most comfortable with using.
 
 *Note:* I'm a programmer and sysadmin at work, so the apps I talk about will largely reflect that. In general, I love me a finely-crafted, single-purpose utility app that just does its one thing so well I can't live without it.
