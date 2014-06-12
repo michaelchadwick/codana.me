@@ -69,8 +69,11 @@ ul.skills li.first {
   font-size: 12px;
   font-weight: bold;
   list-style: none;
-  margin: 5px 12px 0 5px;
+  margin: 5px 12px 2px 5px;
   width: 240px;
+}
+ul.skills li.first.tall {
+  margin-bottom: 45px;
 }
 ul.skills.other {
   color: #999;
