@@ -11,6 +11,7 @@ layout: default
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         {% if post.content contains '<!--more-->' %}
         <p>{{ post.content | split:'<!--more-->' | first }}</p>
+        <p>[ <a href="{{ post.url | prepend: site.baseurl }}">Full entry</a> ]</p>
         {% else %}
         {% endif %}
       </li>
