@@ -4,6 +4,7 @@ extra_title: " | home of audio dev michael chadwick"
 email: first name@domain
 description: "code and audio (and audio code) developments by michael chadwick"
 url: "http://codana.me"
+baseurl: ""
 paginate: 20
 encoding: UTF-8
 
