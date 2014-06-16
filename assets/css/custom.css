@@ -8,3 +8,12 @@
   display: block;
   margin-top: 8px;
 }
+
+#footer-nav
+{
+  background: #e8e8e8;
+}
+#footer-nav .footer-link
+{
+  color: #222;
+}
