@@ -6,7 +6,11 @@ tags: jekyll customization navigation layout
 
 ---
 
-This blog is created via [Jekyll](http://jekyllrb.com), a neat static-site generator written in Ruby. It allows me to have a blog without a database, as I can just write stuff in specifically-named and specifically-located files that the generator (i.e. Jekyll) knows how to process into the actual content that my site consists of (which is what gets deployed to my host, [Github](https://github.com)). The blog post you're reading right now is a good example of that.
+While dynamic creation of collections of variables is often a very helpful thing, sometimes it treats all its members the same, even though they are not. Jekyll, the tech that creates this very site, is a bit non-picky about what it puts in its site-wide navigation, but it can be taught.
+
+<!--more-->
+
+[Jekyll](http://jekyllrb.com) is a neat static-site generator written in Ruby. It allows me to have a blog without a database, as I can just write stuff in specifically-named and specifically-located files that the generator (i.e. Jekyll) knows how to process into the actual content that my site consists of (which is what gets deployed to my host, [Github](https://github.com)). The blog post you're reading right now is a good example of that.
 
 Another good example is essentially *any page that isn't a blog post*. As each of them critters get created, the header layout (at least in boilerplate Jekyll) of the site auto-adds each one to the site-wide navigation in the top-right.
 
