@@ -1,12 +1,12 @@
-<footer class="site-footer">
+<div class="footer-nav">
+  {% for page in site.pages %}
+    {% unless page.exclude_from_nav %}
+      <a class="footer-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {% endunless %}
+  {% endfor %}
+</div>
 
-  <div class="footer-nav">
-    {% for page in site.pages %}
-      {% unless page.exclude_from_nav %}
-        <a class="footer-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endunless %}
-    {% endfor %}
-  </div>
+<footer class="site-footer">
 
   <div class="wrap">
 

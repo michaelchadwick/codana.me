@@ -9,11 +9,12 @@
   margin-top: 8px;
 }
 
-#footer-nav
+.footer-nav
 {
   background: #e8e8e8;
 }
-#footer-nav .footer-link
+.footer-nav .footer-link
 {
   color: #222;
+  font-size: 1em;
 }
