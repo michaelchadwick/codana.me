@@ -1,4 +1,5 @@
 <div class="footer-nav">
+  <a href="{{ site.baseurl }}">Home</a> | 
   {% for page in site.pages %}
     {% unless page.exclude_from_nav %}
       <a class="footer-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
