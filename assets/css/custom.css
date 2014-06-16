@@ -12,10 +12,11 @@
 .footer-nav
 {
   background: #e8e8e8;
+  font-size: 0.9em;
   text-align: center;
 }
 .footer-nav .footer-link
 {
   color: #222;
-  font-size: 0.8em;
+  text-transform: lowercase;
 }
