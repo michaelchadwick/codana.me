@@ -16,31 +16,31 @@ I generally pilot around version 7 of MS's flagship OS, but most of these apps p
 
 In no particular order:
 
-* [Console2](http://sourceforge.net/projects/console)
+* [Console2](http://sourceforge.net/projects/console)  
   We all know the built-in Windows cmd.exe is not that amazing. Sure, it gets the job done but is missing a lot of functionality that *nix command prompt users take for granted (largely, customizability). Enter Console2. It becomes your portal/facade to cmd.exe (and other console interfaces, like Powershell), augmenting it in many ways. This is something I want to install the moment I start seriously using the CLI on a Windows computer.
 
-* [AutoHotKey](http://autohotkey.com)
+* [AutoHotKey](http://autohotkey.com)  
   In conjunction with the just-mentioned-like-whoa-I-mean-it's-right-above-this Console2, AutoHotKey can essentially give you a slick dropdown CLI that appears and flees at the touch of a keyboard shortcut. Its general usage is assigning macros to keys, so you can do other stuff with it, too, but that sweet Quake-like console effect is my main jam.
 
-* [WatchMe](http://flamebrain.com)
+* [WatchMe](http://flamebrain.com)  
   My job recently required that I start tracking my hours. I knew I was going to need a utility that was efficient and flexible since I have a lot of projects that start and stop all the time. WatchMe fits the bill exactly how I want it, allowing me to have multiple timers in multiple categories, all running nicely from the notification section of the taskbar.
 
-* [Dummy](http://mynikko.com)
+* [Dummy](http://mynikko.com)  
   Testing applications often requires test data. Sometimes the data needs to be cold, hard files. You could just grab random files littered around your hard drive, or you could use Dummy to make some randomly-datafied chunks. It has both a GUI and command-line version depending on the task at hand.
 
-* [MarkdownPad](http://markdownpad.com)
+* [MarkdownPad](http://markdownpad.com)  
   Need to mark down some Markdown? You could do a **lot** worse than MarkdownPad. It's got instant preview of all your markup as you type, and it can even use Github's stylesheet, which I like.
 
-* [MultiFileRenamer](http://sourceforge.net/projects/multifilerename/)
+* [MultiFileRenamer](http://sourceforge.net/projects/multifilerename/)  
   If you're anywhere from somewhat to amazingly anal-retentive about file structures and naming conventions like I am, then using MultiFileRenamer will be a godsend. It makes renaming a bunch of files all at once, to your specifications, a breeze.
 
-* [WinDirStat](https://windirstat.info/)
+* [WinDirStat](https://windirstat.info/)  
   Cleaning up files on a computer that has started to near its storage capacity is not really that fun. Knowing what's taking up all the space helps a bit, though. There are plenty of apps that check a drive and tell you what's hogging all the bytes, but WinDirStat is small and capable enough, and I've used it many times to much success.
 
-* [Youtube-DL](http://rg3.github.io/youtube-dl/)
+* [Youtube-DL](http://rg3.github.io/youtube-dl/)  
   So much music is uploaded to YouTube, it rivals if not destroys places like iTunes and Spotify. The quality isn't guaranteed to be great, but the selection is insane. Sometimes you want to save that music to your computer. Youtube-DL is your Swiss Army knife for that purpose. I guess you could grab cat videos, too.
 
-* [Chocolatey](https://chocolatey.org/)
+* [Chocolatey](https://chocolatey.org/)  
   Windows package management with a cute name? Sign me up. Much like Homebrew on OS X, Chocolatey (which is based on the NuGet (get it?) infrastructure) takes a simple command to get one of well over 1000 different applications, and any of its dependencies, onto your computer and ready to use with little effort on your part. It's just fun, regardless of the efficiency, to type "cinst app-name" and a few moments later have everything set up.
 
   In fact, you can install almost every app on this list using Chocolatey. Sweet, right?
