@@ -6,7 +6,11 @@ tags: iOS mac game spritekit
 
 ---
 
-For some reason, I've really wanted to make a game lately. A few days ago, I decided to just that so I made a really simple console app in Ruby called [Guess the Number](https://github.com/michaelchadwick/guess-the-number). Oh, you've played this kind of game before? Heh. Well, making an original game is a future step. For now, I'm experimenting with recreating old ideas for the umpteenth time to get the hang of it.
+For some reason, I've really wanted to make a game lately. I play them so often that it's natural that I'd eventually want to make one. My recent renaissance in personal development is helpful in accomplishing this goal. But where to start?
+
+<!--more-->
+
+A few days ago, I decided to try something easy, so I made a really simple console app in Ruby called [Guess the Number](https://github.com/michaelchadwick/guess-the-number). Oh, you've played this kind of game before? Heh. Well, making an original game is a future step. For now, I'm experimenting with recreating old ideas for the umpteenth time to get the hang of it.
 
 Since I've become fairly adept at getting Xcode and Objective-C to do some things for me, and yet I still haven't really cracked open developing for iOS, I looked into how one would make a game within it. Seems like there's a built-in framework for just that: [SpriteKit](https://developer.apple.com/library/ios/documentation/GraphicsAnimation/Conceptual/SpriteKit_PG/Introduction/Introduction.html). It comes with a bunch of helpful methods to make a view with a scene in it, and then populate it with sprites that perform actions.
 
