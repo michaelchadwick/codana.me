@@ -1,0 +1,24 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{{ site.extra_title }}{% else %}{{ site.title }}{{ site.extra_title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/vexflow/tabdiv.css" | prepend: site.baseurl }}">
+    <link href="/assets/images/favicon.ico" rel="icon" type="image/x-icon" />
+    
+    <!-- Custom JS -->
+    <script type="text/javascript" src="{{ "/assets/scripts/jquery.min.js "}}"></script>
+    <script type="text/javascript" src="{{ "/assets/scripts/jquery.colorbox.min.js "}}"></script>
+    <script type="text/javascript" src="{{ "/assets/scripts/desktop.js "}}"></script>
+    
+    <!-- Vexflow/Vextab JS -->
+    <script type="text/javascript" src="{{ "/assets/scripts/underscore-min.js "}}"></script>
+    <script type="text/javascript" src="{{ "/assets/scripts/vexflow/vexflow-min.js "}}"></script>
+    <script type="text/javascript" src="{{ "/assets/scripts/vexflow/tabdiv-min.js "}}"></script>
+</head>
