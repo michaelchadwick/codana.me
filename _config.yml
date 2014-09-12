@@ -7,7 +7,7 @@ url: "http://codana.me"
 baseurl: ""
 paginate: 10
 encoding: UTF-8
-include: ["mus.html", "net.html", "web_print.html"]
+include: ["mus.html", "net.html", "index_print.html"]
 
 # Build settings
 markdown: kramdown
