@@ -91,4 +91,6 @@ Now, in order to send someone a file by uploading it to a host you have access t
 
 The file will upload, a link will be created, and a simple form email will be sent to the user notifying them. If you omit the email address, it will just upload the file and copy the link to the clipboard for later use.
 
-Of course, you could just use Dropbox for the same utility...but isn't it more fun to learn how to do it yourself? Hope this is useful to someone!
+One final note: currently the file to upload will just overwrite anything of the same name already on the server, as I didn't bother to write any existing-file checking code yet. Also, it won't yet tell you if the email was successfully sent, so that's based on trust and much testing of the mechanism before throwing it into the script.
+
+Finally, you could just use Dropbox/Google Drive/Skydrive/iCloud/etc. for the same utility...but isn't it more fun to learn how to do it yourself? Hope this is useful to someone!
