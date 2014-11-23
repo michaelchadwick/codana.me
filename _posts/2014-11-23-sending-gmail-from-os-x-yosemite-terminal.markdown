@@ -74,11 +74,11 @@ Now we can add our email notification to our upload script.
 {% highlight bash linenos=table %}
 function shareit() {
   scp $1 ${SSHUSER}@${SSHHOST}:${REMOTEDIR}
-  echo "${STUFFSERVER}/$1" | pbcopy
+  echo "${REMOTESERVER}/$1" | pbcopy
   if [ "$#" -eq 2 ]
   then
     echo "Emailing link to $2..."
-    echo "${STUFFSERVER}/$1" | mail -s "Link to file '$1'" $2
+    echo "${REMOTESERVER}/$1" | mail -s "Link to file '$1'" $2
   fi
 }
 {% endhighlight %}
