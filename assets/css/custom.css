@@ -45,3 +45,29 @@
 {
   
 }
+
+.highlight
+{
+
+}
+.highlight pre
+{
+  white-space: pre-wrap;
+}
+.highlight pre > code,
+.linenos pre > code
+{
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+  display: block; 
+  white-space: pre; 
+  overflow-x: auto; 
+  word-wrap: normal;
+}
+.highlight .lineno { 
+  color: #ccc; 
+  display:inline-block; 
+  padding: 0 5px; 
+  border-right:1px solid #ccc; 
+}
