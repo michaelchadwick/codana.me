@@ -24,7 +24,7 @@ function shareit() {
 
 So far, this is just a simple alias to a command. Basic stuff not worth blogging about. But just wait! Let's add the ability to copy a link to our uploaded file so we could drop it in an email or IM for our buddy.
 
-{% highlight bash linenos=table %}
+{% highlight bash linenos %}
 function shareit() {
   scp $1 ${SSHUSER}@{SSHHOST}:${REMOTEDIR}
   echo "${REMOTESERVER}/$1" | pbcopy
@@ -71,7 +71,7 @@ sudo launchctl start org.postfix.master
 
 Now we can add our email notification to our upload script.
 
-{% highlight bash linenos=table %}
+{% highlight bash linenos %}
 function shareit() {
   scp $1 ${SSHUSER}@${SSHHOST}:${REMOTEDIR}
   echo "${REMOTESERVER}/$1" | pbcopy
