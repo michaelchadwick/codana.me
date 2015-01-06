@@ -5,6 +5,11 @@ title: Home
 
 <div class="home">
 
+  <div id="search-container">
+    <input type="text" id="search-input" placeholder="Search posts..." />
+    <ul id="results-container"></ul>
+  </div>
+
   <ul class="posts">
     {% for post in paginator.posts %}
       <li>

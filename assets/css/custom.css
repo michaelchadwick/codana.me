@@ -19,3 +19,55 @@
 {
   text-transform: lowercase;
 }
+
+#search-container
+{
+  background: #fcfcfc;
+  border: 1px solid #bbb;
+  margin: 0 auto 20px;
+  padding: 3px;
+  width: 99%;
+}
+#search-container input
+{
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 0.9em;
+  padding: 0.5em;
+  width: 100%;
+}
+#results-container
+{
+  background: #fcfcfc;
+  margin-left: 30px;
+}
+#results-container li
+{
+  
+}
+
+.highlight
+{
+
+}
+.highlight pre
+{
+  white-space: pre-wrap;
+}
+.highlight pre > code,
+.linenos pre > code
+{
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+  display: block; 
+  white-space: pre; 
+  overflow-x: auto; 
+  word-wrap: normal;
+}
+.highlight .lineno { 
+  color: #ccc; 
+  display:inline-block; 
+  padding: 0 5px; 
+  border-right:1px solid #ccc; 
+}
