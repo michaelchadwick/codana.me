@@ -26,7 +26,7 @@ There are likely many ways to accomplish the task of excluding them, but one qui
 
 1) Add an `unless` clause to your site-wide navigation block (this is boilerplate Jekyll, btw):
 
-{% highlight %}
+{% highlight liquid %}
 {% for page in site.pages %}
   {% unless page.exclude_from_nav %}
     <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
