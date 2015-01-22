@@ -28,7 +28,7 @@ There are likely many ways to accomplish the task of excluding them, but one qui
 
 {% highlight liquid %}
 { for page in site.pages }
-  {% unless page.exclude_from_nav %}
+  { unless page.exclude_from_nav }
     <a class="page-link" href="{ page.url | prepend: site.baseurl }">
       { page.title }
     </a>
