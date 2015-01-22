@@ -22,14 +22,14 @@ My initial aim was to create a web app that could take random chunks of multiple
 
 For example, with about a dozen lines of Javascript you can load up an audio file and play it (eschewing any kind of error checking, obv), but then do many other things to it that a simple `<audio src="audio.mp3" />` can't do.
 
-```
+{% highlight javascript %}
 var audioContext = new ( window.AudioContext || window.webkitAudioContext )();
 var audioBuffer;
 var bufferSource = audioContext.createBufferSource();
 var req = new XMLHttpRequest();
 req.open("GET", "audio.mp3", true); // grab our audio file
 req.responseType = "arraybuffer";   // needs to be specific type to work
-req.onload = function() { 
+req.onload = function() {
     audioContext.decodeAudioData(req.response, function(buf) {
         bufferSource.buffer = buf;  // load the audio buffer data 
         bufferSource.connect(audioContext.destination);
@@ -37,31 +37,31 @@ req.onload = function() {
     });
 };
 req.send();
-```
+{% endhighlight %}
 
 You could also use a `<input type="file" />` control to upload the audio into a usable state, if you desired.
 
 Now, add a button to stop the ~~rain~~audio.
 
-```
+{% highlight html %}
 <button id='stopAudio'>Stop Audio</button>
 <script>
     document.getElementById('stopAudio').addEventListener('click', function() { 
         bufferSource.stop(); 
     });
 </script>
-```
+{% endhighlight %}
 
 For a much more thorough explanation, check out Josh On Design's [Deep Dive into Web Audio](http://joshondesign.com/p/books/canvasdeepdive/chapter12.html), which I've cribbed/paraphrased a bit above to give you the simplest example.
 
 With another couple lines, you can route that audio file through a *gain node* to change its volume.
 
-```
+{% highlight javascript %}
 var gainNode = audioContext.createGain();   // make a new gainNode
 gainNode.gain.value = 0.3;                  // set the volume
 bufferSource.connect(gainNode);             // connect sound to gain
 gainNode.connect(audioContext.destination); // reconnect gain to dest
-```
+{% endhighlight %}
 
 There are a bunch of other kinds of *nodes* for effects (visual ones, as well), and CreativeJS has a great article on [all of them](http://creativejs.com/resources/web-audio-api-getting-started).
 
@@ -69,7 +69,7 @@ There are a bunch of other kinds of *nodes* for effects (visual ones, as well), 
 
 As you can see, this can be pretty flexible and awesome if you want to get into the nitty-gritty of audio, rather than just playing a song in an embed. For Audio Hash, I needed to be able to actually *create* audio, not just play it, so I had to **go deeper**. This means I've been staring at code like the following for a bit, poring over why it doesn't do what I want it to do (yet).
 
-```
+{% highlight javascript %}
 function _encodeWavFile(samples, sampleRate) {
     var buffer = new ArrayBuffer(44 + samples.length * 2);
     var view = new DataView(buffer);
@@ -104,8 +104,8 @@ function _encodeWavFile(samples, sampleRate) {
     _writePCMSamples(view, 44, samples);
     
     return view;
-  }
-```
+}
+{% endhighlight %}
 
 I've even gone as far as finding someone who figured out the code to put the raw audio data as HEX into an HTML div. Both exercises are about as low-level as I've gotten in the development world, and it feels cool, if overwhelming. Regardless, the exported audio files I've been creating are too short and completely silent, so it's currently a failure for now. I'll most likely end up using some kind of existing audio library, as I don't *need* to write bytes from scratch, but I wanted to try my hand at low-level audio futzing to see how it worked.
 
