@@ -15,10 +15,11 @@ comments: true
       • {{ page.meta }}
     {% endif %}
     {% if page.tags %}
-      • <ul class="tags">
+      <ul class="tags">
       {% for tag in page.tags %}
       <li>{{ tag | downcase }}</li>
       {% endfor %}
+      </ul>
     {% endif %}
     </p>
   </header>
