@@ -41,7 +41,7 @@ req.send();
 
 You could also use a `<input type="file" />` control to upload the audio into a usable state, if you desired.
 
-Now, add a button to stop the ~~rain~~audio.
+Now, add a button to stop the <s>rain</s>audio.
 
 {% highlight html %}
 <button id='stopAudio'>Stop Audio</button>
