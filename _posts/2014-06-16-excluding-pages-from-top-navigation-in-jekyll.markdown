@@ -14,11 +14,11 @@ While dynamic creation of collections of variables is often a very helpful thing
 
 Another good example is essentially *any page that isn't a blog post*. As each of them critters get created, the header layout (at least in boilerplate Jekyll) of the site auto-adds each one to the site-wide navigation in the top-right.
 
-```
+{% highlight html %}
 <a class="page-link" href="/subdir1/">Subdir1</a>
 <a class="page-link" href="/subdir2/">Subdir2</a>
 <a class="page-link" href="/subdir3/">Subdir3</a>
-```
+{% endhighlight %}
 
 In general, this is cool, but not every page is something you might want to show up in that navigation. For instance, some may be additional pages inside a section of the site that you only want the index page of that section linked.
 
@@ -26,22 +26,22 @@ There are likely many ways to accomplish the task of excluding them, but one qui
 
 1) Add an `unless` clause to your site-wide navigation block (this is boilerplate Jekyll, btw):
 
-```
+{% highlight html %}
 {% for page in site.pages %}
   {% unless page.exclude_from_nav %}
     <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
   {% endunless %}
 {% endfor %}
-```
+{% endhighlight %}
 
 2) Create a custom variable in the Front-matter section of the page you don't want to be automatically added that matches the one above:
 
-```
+{% highlight yml %}
 ---
 layout: default  
 title: SubDirPage2
 exclude_from_nav: true
 ---
-```
+{% endhighlight %}
 
 Voila! That page is now safely hidden until you link to it in some laborious, *manual* way.
