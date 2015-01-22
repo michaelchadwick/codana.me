@@ -77,5 +77,6 @@ article
 }
 .tags li {
   float: left;
-  margin-right: 4px;
+  font-size: 0.8em;
+  margin-right: 20px;
 }
