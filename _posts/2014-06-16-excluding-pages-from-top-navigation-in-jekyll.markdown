@@ -37,7 +37,7 @@ There are likely many ways to accomplish the task of excluding them, but one qui
 
 2) Create a custom variable in the Front-matter section of the page you don't want to be automatically added that matches the one above:
 
-{% highlight yml %}
+{% highlight yaml %}
 ---
 layout: default  
 title: SubDirPage2
