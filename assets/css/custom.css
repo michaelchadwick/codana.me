@@ -75,7 +75,10 @@ article
   padding: 0 5px; 
   border-right:1px solid #ccc; 
 }
+.meta.pretags {
+  float: left;
+}
 .tags li {
   float: left;
-  margin-right: 20px;
+  margin-right: 24px;
 }
