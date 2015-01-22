@@ -13,7 +13,7 @@
       <ul>
         <li>{{ site.title }}</li>
         <li><a href="mailto:{{ site.email }}">Email</a></li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></a>
+        <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></a>
       </ul>
     </div>
 
@@ -49,7 +49,9 @@
 
   </div>
   
+  {% if page.layout == "default" %}
   <script type="text/javascript" src="{{ "/assets/scripts/jekyll-search.js "}}"></script>
+  {% endif %}
   <script type="text/javascript" src="{{ "/assets/scripts/all.js "}}"></script>
 
 </footer>
