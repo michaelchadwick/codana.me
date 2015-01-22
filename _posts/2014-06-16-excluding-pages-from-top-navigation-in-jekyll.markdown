@@ -24,7 +24,7 @@ In general, this is cool, but not every page is something you might want to show
 
 There are likely many ways to accomplish the task of excluding them, but one quick and easy way I found is to simply harness the power of Jekyll's [Front-matter](http://jekyllrb.com/docs/frontmatter/) for any page you want to exclude. It's a simple two-step process:
 
-1) Add an `unless` clause to your site-wide navigation block (this is boilerplate Jekyll, btw):
+1) Add an `unless` clause to your site-wide navigation block (this is boilerplate Jekyll, with percent signs missing as they were being parsed, btw):
 
 {% highlight liquid %}
 { for page in site.pages }
