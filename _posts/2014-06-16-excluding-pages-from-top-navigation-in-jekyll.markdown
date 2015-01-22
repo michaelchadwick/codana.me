@@ -27,12 +27,11 @@ There are likely many ways to accomplish the task of excluding them, but one qui
 1) Add an `unless` clause to your site-wide navigation block (this is boilerplate Jekyll, btw):
 
 {% highlight html %}
-<pre>{% for page in site.pages %}
-  {% unless page.exclude_from_nav %}
+{&#37; for page in site.pages &#37;}
+  {&#37; unless page.exclude_from_nav &#37;}
     <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-  {% endunless %}
-{% endfor %}
-</pre>
+  {&#37; endunless &#37;}
+{&#37; endfor &#37;}
 {% endhighlight %}
 
 2) Create a custom variable in the Front-matter section of the page you don't want to be automatically added that matches the one above:
