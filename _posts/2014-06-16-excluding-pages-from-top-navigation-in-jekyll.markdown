@@ -2,7 +2,7 @@
 
 layout: post  
 title:  "Excluding Pages from Top Navigation in Jekyll"  
-tags: jekyll customization navigation layout
+tags: jekyll customization navigation layout webdev
 
 ---
 

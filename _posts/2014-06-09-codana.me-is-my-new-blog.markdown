@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Codana.me is my new dev blog"
-tags: jekyll update
+tags: jekyll update webdev
 
 ---
 

@@ -2,7 +2,7 @@
 
 layout: post
 title:  "My Favorite Windows Apps"
-tags: windows win7 apps faves list utilities
+tags: windows windows-7 apps faves list utilities
 
 ---
 

@@ -2,7 +2,7 @@
 
 layout: post  
 title:  "Adventures in Spritekit"  
-tags: iOS mac game spritekit
+tags: ios mac game spritekit
 
 ---
 
