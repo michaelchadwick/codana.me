@@ -76,13 +76,21 @@ article
   border-right:1px solid #ccc; 
 }
 .meta.pretags {
-  float: left;
-  margin-bottom: 20px;
-  margin-right: 28px;
+  font-size: 1.4em;
+  margin: 0;
 }
-.tags li {
+.meta.tags {
+  color: #999;
+  display: block;
+  margin-bottom: 60px;
+  margin-left: 1px;
+  margin-top: 0;
+}
+.meta.tags li {
   float: left;
-  margin-right: 24px;
+  line-height: 1.2em;
+  list-style-type: none;
+  margin-right: 5px;
 }
 
 #tag-cloud {
