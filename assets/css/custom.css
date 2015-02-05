@@ -2,6 +2,12 @@ article
 {
   clear: left;
 }
+fieldset legend,
+.pure-form legend {
+  background: #444;
+  color: #f6f6f6;
+  padding: 5px 0 5px 10px;
+}
 .post-header {
   margin-bottom: 55px;
 }
