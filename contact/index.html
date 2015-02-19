@@ -2,33 +2,38 @@
 layout : page
 title  : Contact Me
 ---
-<p>Got a question, comment, or suggestion for the bits that come together to make Codana.me? A form awaits you.</p>
 
-<form action="https://getsimpleform.com/messages?form_api_token=de9ce60e2389b15e533a28a58c56e77b" method="post" class="pure-form pure-form-stacked">
-  <fieldset>
-    <legend>What's Required</legend>
-  
-    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-    <input type='hidden' name='redirect_to' value='http://codana.me/contact/thankyou' />
+<div class="subhead">Got a question, comment, or suggestion for the bits that come together to make Codana.me? A form awaits you.</div>
+
+<div class="page-contact">
+
+  <form action="https://getsimpleform.com/messages?form_api_token=de9ce60e2389b15e533a28a58c56e77b" method="post" class="pure-form pure-form-stacked">
+    <fieldset>
+      <legend>What's Required</legend>
     
-    <!-- all your input fields here.... -->
-    <label for="name">Name</label>
-    <input placeholder="nom de plume" type='text' name='name' required />
-    <label for="email">Email</label>
-    <input placeholder="e-mail ad-dress" type='email' name='email' required />
-    <label for="message">Message</label>
-    <textarea placeholder="a little bit o' text describing your communication" name='message' cols="44" rows="5" required></textarea>
-  </fieldset>
-  
-  <fieldset>
-    <legend>What's Optional, If You're Feeling Whimsical</legend>
+      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+      <input type='hidden' name='redirect_to' value='http://codana.me/contact/thankyou' />
+      
+      <!-- all your input fields here.... -->
+      <label for="name">Name</label>
+      <input placeholder="nom de plume" type='text' name='name' required />
+      <label for="email">Email</label>
+      <input placeholder="e-mail ad-dress" type='email' name='email' required />
+      <label for="message">Message</label>
+      <textarea placeholder="a little bit o' text describing your communication" name='message' cols="44" rows="5" required></textarea>
+    </fieldset>
+    
+    <fieldset>
+      <legend>What's Optional, If You're Feeling Whimsical</legend>
 
-    <label for="fave_chord">Favorite Chord?</label>
-    <input placeholder="C#sus2" type="text" name="fave_chord" />
+      <label for="fave_chord">Favorite Chord?</label>
+      <input placeholder="C#sus2" type="text" name="fave_chord" />
 
-    <label for="fave_scale">Favorite Scale?</label>
-    <input placeholder="Harmonic minor" type="text" name="fave_scale" />
-  </fieldset>
-  
-  <button type='submit' class="pure-button pure-button-primary">Contact Me</button>
-</form>
+      <label for="fave_scale">Favorite Scale?</label>
+      <input placeholder="Harmonic minor" type="text" name="fave_scale" />
+    </fieldset>
+    
+    <button type='submit' class="pure-button pure-button-primary">Contact Me</button>
+  </form>
+
+</div>
