@@ -73,7 +73,7 @@ ul.skills li.first {
   width: 240px;
 }
 ul.skills li.first.tall {
-
+  margin-bottom: auto;
 }
 ul.skills.other {
   color: #999;
