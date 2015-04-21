@@ -61,7 +61,7 @@ ul.skills li {
   font-size: 12px;
   font-weight: normal;
   list-style: square;
-  margin: 2px 12px 2px 20px;
+  margin: 2px 12px 2px 14px;
 }
 ul.skills li.first { 
   clear: left;
@@ -73,7 +73,7 @@ ul.skills li.first {
   width: 240px;
 }
 ul.skills li.first.tall {
-  margin-bottom: 45px;
+
 }
 ul.skills.other {
   color: #999;
