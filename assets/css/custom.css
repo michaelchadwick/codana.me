@@ -96,16 +96,16 @@ fieldset legend, .pure-form legend {
   border: 0;
   padding-left: 0;
   padding-right: 0;
-  display: block; 
-  white-space: pre; 
-  overflow-x: auto; 
+  display: block;
+  white-space: pre-wrap; 
+  overflow-x: auto;
   word-wrap: normal;
 }
-.highlight .lineno { 
-  color: #ccc; 
-  display:inline-block; 
-  padding: 0 5px; 
-  border-right:1px solid #ccc; 
+.highlight .lineno {
+  color: #ccc;
+  display:inline-block;
+  padding: 0 5px;
+  border-right:1px solid #ccc;
 }
 .meta.pretags {
   font-size: 1.4em;
@@ -134,8 +134,8 @@ fieldset legend, .pure-form legend {
   }
 }
 @media screen and (max-width: 600px) {
-  .pure-form button, 
-  .pure-form input, 
+  .pure-form button,
+  .pure-form input,
   .pure-form textarea {
     width: 100%;
   }
