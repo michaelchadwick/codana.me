@@ -6,6 +6,8 @@ tags: game gaming ruby text adventure gemwarrior gem guide markov yaml audio yam
 
 ---
 
+(Previous posts [1](http://codana.me/2015/06/08/gem-warrior-part-1-of-who-knows/) and [2](http://codana.me/2015/07/16/gem-warrior-part-2-of-some-indeterminate-number/))
+
 For the most part, [Gem Warrior](http://gw.codana.me) is done. What a blast it has been! I'm not sure I've worked so hard on a project in a long time.
 
 I made a game!
