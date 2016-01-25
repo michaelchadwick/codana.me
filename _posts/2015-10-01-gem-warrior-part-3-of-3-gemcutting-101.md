@@ -100,7 +100,7 @@ Now to walk through the game once it has loaded!
 
 ### Main Menu
 
-The `Game` instance has attributes with sane defaults, but they can be overridden by both a `gw_opts` file and command line switches (e.g. `-n` to immediately begin a new game) that further override said options. The first thing you see when the game loads is a main menu (so pro!) which allows you to among other things, modify some of those options:
+The `Game` instance has attributes with sane defaults, but they can be overridden by both a `gw_opts` file and command line switches (e.g. `-n` to immediately begin a new game) that further override said options. The first thing you see when the game loads is a main menu (so pro!) which allows you to, among other things, modify some of those options:
 
 {% highlight console %}
 /-+-+-+ +-+-+-+-+-+-+-\
@@ -262,7 +262,7 @@ Thus, I needed something better! Something that was more low-level, and most lik
 
 #### Naming and Markov Chains
 
-The game generates a new for you when you begin. At first I was just choosing random letters from the alphabet to create a new, unique name. It's lazy, but got the job done. Later, I learned about how you can use sample name data and a [markov chain](https://en.wikipedia.org/wiki/Markov_chain) algorithm to generate new, unique names that actually share the characteristics of the name in your sample data. Big props goes out to [donjon's RPG Tools](https://donjon.bin.sh/)'s page, which included, among many other fascinating tools, source code for a [Javascript implementation](https://donjon.bin.sh/code/name/) of this process, which I painstakingly [translated to Ruby](https://github.com/michaelchadwick/gemwarrior/blob/master/lib/gemwarrior/misc/name_generator.rb). In the end, all that hard work just makes the "random" names chosen a lot less random, but I think it was worth it!
+The game generates a new name for you when you begin. At first I was just choosing random letters from the alphabet to create a novel, unique name. It's lazy, but got the job done. Later, I learned about how you can use sample name data and a [markov chain](https://en.wikipedia.org/wiki/Markov_chain) algorithm to generate unique noms de plume that actually share the characteristics of the names in your sample data. Big props goes out to [donjon's RPG Tools](https://donjon.bin.sh/)'s page, which included, among many other fascinating tools, source code for a [Javascript implementation](https://donjon.bin.sh/code/name/) of this process, which I painstakingly [translated to Ruby](https://github.com/michaelchadwick/gemwarrior/blob/master/lib/gemwarrior/misc/name_generator.rb). In the end, all that hard work just makes the "random" names chosen a lot less random, but I think it was worth it!
 
 #### Wordnik Word Generator
 
@@ -284,7 +284,7 @@ Of course, there are always some things that come up whenever you code that prov
 
 ### Style Consistency
 
-I found as the months went by I kept changing my approach as to how I'd code a specific bit of functionality. Refactoring is a normal process, and it always felt good to replace some gangly chunk of spaghetti into a leaner, smaller chunk of...penne? However, I didn't always change the older pieces that suffered from the *Before Way*, so there's often a mix of paradigms scattered throughout the project, making things look
+I found as the months went by I kept changing my approach as to how I'd code a specific bit of functionality. Refactoring is a normal process, and it always felt good to replace some gangly chunk of spaghetti into a leaner, smaller chunk of...penne? However, I didn't always change the older pieces that suffered from the *Before Way*, so there's often a mix of paradigms scattered throughout the project, making things look inconsistent.
 
 ### Testing
 I've never been good at testing my code. TDD and BDD are acronyms I'm familiar with, but I've never gotten beyond doing basic tutorials. I *debug*, but I don't test. My methods to "test" are:
