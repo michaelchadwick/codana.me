@@ -1,5 +1,6 @@
 ---
 layout: page
+tags:   true
 title:  Posts by Tags
 ---
 
@@ -20,33 +21,4 @@ title:  Posts by Tags
 
   <div id="posts-tags" class="post-list"></div>
 
-  <script type="text/javascript">
-  $(function() {
-    var minFont = 1.0,
-        maxFont = 2.5,
-        diffFont = maxFont - minFont,
-        size = 0;
-
-    {% assign max = 1.0 %}
-    {% for tag in site.tags %}
-      {% if tag[1].size > max %}
-        {% assign max = tag[1].size %}
-      {% endif %}
-    {% endfor %}
-
-    {% for tag in site.tags %}
-      size = (Math.log({{ tag[1].size }}) / Math.log({{ max }})) * diffFont
-             + minFont;
-      $("#{{ forloop.index }}").css("font-size", size + "em");
-    {% endfor %}
-
-    $('#tag-cloud a[class^="tag"]').click(function() {
-      $('.post-list').empty();
-      $('#list_' + $(this).attr('id')).each(function() {
-         $('.post-list').append('<ul>' + $(this).html() + '</ul>');
-      });
-    });
-  });
-  </script>
-  
 </div>
