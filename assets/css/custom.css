@@ -20,8 +20,7 @@
     padding: 0 30px;
   }
 }
-article
-{
+article {
   clear: left;
 }
 fieldset legend, .pure-form legend {
@@ -43,8 +42,7 @@ fieldset legend, .pure-form legend {
 #posts-tags {
   margin: 30px;
 }
-#search-container
-{
+#search-container {
   background: #fcfcfc;
   border: 1px solid #bbb;
   margin: 0 auto 20px;
@@ -62,8 +60,7 @@ fieldset legend, .pure-form legend {
   -khtml-user-select: none;
   -webkit-user-select: none;
 }
-#search-container input
-{
+#search-container input {
   border: 0px;
   box-sizing: border-box;
   display: inline-block;
@@ -82,30 +79,25 @@ fieldset legend, .pure-form legend {
   outline: none;
 }
 
-#results-container
-{
+#results-container {
   background: #fcfcfc;
   margin: 0;
   padding-left: 20px;
 }
-.site-footer
-{
+.site-footer {
   padding: 5px 0;
 }
-.footer-nav
-{
+.footer-nav {
   background: #e8e8e8;
   font-size: 0.9em;
   text-align: center;
 }
-.footer-nav .page-link
-{
+.footer-nav .page-link {
   display: inline-block;
   padding: 0 3px;
   text-transform: lowercase;
 }
-.footer-col-3
-{
+.footer-col-3 {
   margin-top: 13px;
   text-align: right;
 }
@@ -118,12 +110,10 @@ fieldset legend, .pure-form legend {
 .post-header h3, .post-header h4 {
   margin: 0;
 }
-.posts .post-link
-{
+.posts .post-link {
   margin-bottom: 10px;
 }
-.posts .full-entry
-{
+.posts .full-entry {
   display: block;
   margin-top: 8px;
 }
@@ -131,18 +121,16 @@ fieldset legend, .pure-form legend {
   margin: 3px auto 20px;
 }
 
-.highlight pre
-{
+.highlight pre {
   white-space: pre-wrap;
 }
 .highlight pre > code,
-.linenos pre > code
-{
+.linenos pre > code {
   border: 0;
   padding-left: 0;
   padding-right: 0;
   display: block;
-  white-space: pre-wrap; 
+  white-space: pre-wrap;
   overflow-x: auto;
   word-wrap: normal;
 }
@@ -169,7 +157,7 @@ fieldset legend, .pure-form legend {
   margin-right: 5px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
   .site-footer .column {
     text-align: center;
   }
