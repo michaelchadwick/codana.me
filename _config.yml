@@ -5,7 +5,7 @@ email: first name@domain
 description: "code and audio (and audio code)<br />developments by <a href='http://michaelchadwick.info'>michael chadwick</a>"
 url: "http://codana.me"
 baseurl: ""
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 10
 encoding: UTF-8
 include: ["mus.html", "net.html", "index_print.html"]
