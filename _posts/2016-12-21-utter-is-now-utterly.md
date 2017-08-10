@@ -6,7 +6,7 @@ tags: utter utterly mac macos apple objective-c swift github cow
 
 ---
 
-<p><a href="{{ page.url }}"><img alt="Axeracer gameplay" src="https://raw.githubusercontent.com/michaelchadwick/utterly/master/Utterly/Assets.xcassets/AppIcon.appiconset/icon256x256.png" width="256" height="256" /></a></p>
+<p><a href="{{ page.url }}"><img alt="Utterly" src="https://raw.githubusercontent.com/michaelchadwick/utterly/master/Utterly/Assets.xcassets/AppIcon.appiconset/icon256x256.png" width="256" height="256" /></a></p>
 
 Presenting: [Utterly](https://github.com/michaelchadwick/utterly), a macOS app that puts a GUI on top of Apple's built-in speech synthesis technology.
 
