@@ -110,6 +110,10 @@ fieldset legend, .pure-form legend {
 .post-header h3, .post-header h4 {
   margin: 0;
 }
+.posts img {
+  height: auto;
+  max-width: 100%;
+}
 .posts .post-link {
   margin-bottom: 10px;
 }
