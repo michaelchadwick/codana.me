@@ -12,9 +12,9 @@ customjs:
   <a href="{{ page.url }}"><img alt="Raffler" title="Raffler" src="/assets/images/raffler.png" width="443" height="256" /></a>
 </p>
 
-Since my [last post](/2017/04/20/fun-with-javascript-frameworks/), I've worked on [Raffler](http://raffler.win) quite a bit (it got its own domain, for one), making it **warmer**, _juicier_, and with a nice <span style='color: #8b8458; font-weight: 700;'>glaze</span> around the edges. In sum, it's approximately <span id='random-percent'></span>% better.
+Since my [last post](/2017/04/20/fun-with-javascript-frameworks/), I've worked on [Raffler](http://raffler.win) quite a bit (it got its own domain, for one), making it **warmer**, _juicier_, and with a nice <span style='color: #8b8458; font-weight: 700;'>glaze</span> around the edges. In sum, it's approximately <span id='random-percent'>476</span>% better.
 
-It's now almost ready to unveil publicly, after a beta test at [UCCSC](http://uccsc.ucsd.edu), a rad tech conference recently held at [UC San Diego](http://ucsd.edu), so let's dig into it and discuss some things that changed since last we raffled items in a random fashion.
+It's now ready to unveil publicly, after a beta test at [UCCSC](http://uccsc.ucsd.edu), a rad tech conference recently held at [UC San Diego](http://ucsd.edu), so let's dig into it and discuss some things that changed since last we raffled items in a random fashion.
 
 <!--more-->
 
