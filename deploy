@@ -1,0 +1,9 @@
+#!/bin/sh
+
+USER=mike
+HOST=neb.host
+DIR=/var/www/codana.me/public_html/
+
+bundle exec jekyll b && rsync -avr --delete-after --delete-excluded --exclude=deploy _site/ ${USER}@${HOST}:${DIR}
+
+exit 0
