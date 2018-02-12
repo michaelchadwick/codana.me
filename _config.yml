@@ -9,6 +9,9 @@ plugins: [jekyll-paginate]
 paginate: 10
 encoding: UTF-8
 include: ["mus.html", "net.html", "index_print.html"]
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
 
 # Build settings
 markdown: kramdown
