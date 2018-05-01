@@ -1,3 +1,10 @@
+p {
+  margin-bottom: 10px;
+}
+hr {
+  box-shadow: 0 1px 3px #bbb;
+}
+
 .overlay {
   background: rgba(255,255,255,0.9);
   z-index: 1;
@@ -56,6 +63,7 @@ fieldset legend, .pure-form legend {
   background: #fff;
   border: 0px;
   outline: none;
+  user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
@@ -114,12 +122,20 @@ fieldset legend, .pure-form legend {
   height: auto;
   max-width: 100%;
 }
-.posts .post-link {
+.posts li {
+  margin-bottom: 15px;
+}
+.posts a.post-link {
   margin-bottom: 10px;
 }
-.posts .full-entry {
-  display: block;
+.posts .full-entry a {
+  -moz-appearance: button;
+  -webkit-appearance: button;
+  font-weight: bold;
   margin-top: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
 }
 .subhead {
   margin: 3px auto 20px;
