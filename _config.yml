@@ -1,9 +1,9 @@
 # Site settings
 title: Codana.me
 extra_title: " | home of audio dev michael chadwick"
-email: first name@domain
-description: "code and audio (and audio code)<br />developments by <a href='http://michaelchadwick.info'>michael chadwick</a>"
-url: "http://codana.me"
+email: first-name@domain
+description: "code and audio (and audio code)<br />developments by <a href='https://michaelchadwick.info'>michael chadwick</a>"
+url: "https://codana.me"
 baseurl: ""
 plugins: [jekyll-paginate]
 paginate: 10
@@ -25,5 +25,5 @@ sc_username: nebyoolae
 bc_username: nebyoolae
 gh_link: https://github.com/michaelchadwick
 tw_link: https://twitter.com/mjchadwick
-sc_link: http://soundcloud.com/nebyoolae
+sc_link: https://soundcloud.com/nebyoolae
 bc_link: https://nebyoolae.bandcamp.com
