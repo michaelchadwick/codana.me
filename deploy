@@ -4,6 +4,9 @@ USER=mike
 HOST=neb.host
 DIR=/var/www/codana.me/public_html/
 
-bundle exec jekyll b && rsync -avr --delete-after --delete-excluded --exclude=deploy _site/ ${USER}@${HOST}:${DIR}
+# build site
+bundle exec jekyll b
+# sync site, but exclude _apps
+rsync -avr --delete-after --delete-excluded --exclude=deploy --exclude=_apps _site/ ${USER}@${HOST}:${DIR}
 
 exit 0
