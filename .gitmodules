@@ -1,3 +1,12 @@
 [submodule "_apps/fmm"]
 	path = _apps/fmm
 	url = https://github.com/michaelchadwick/fake-monster-movie
+[submodule "_apps/jpo"]
+	path = _apps/jpo
+	url = https://github.com/michaelchadwick/just-pick-one
+[submodule "_apps/math"]
+	path = _apps/math
+	url = https://github.com/michaelchadwick/math
+[submodule "_apps/sketchage"]
+	path = _apps/sketchage
+	url = https://github.com/michaelchadwick/sketchage
