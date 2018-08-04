@@ -5,9 +5,9 @@ comments: true
 <div class="post">
 
   <header class="post-header">
+    {{ page.date | date: "%B %d, %Y" }}
     <h1>{{ page.title }}</h1>
     <div class="meta pretags">
-    {{ page.date | date: "%B %d, %Y" }}
     {% if page.author %}
       • {{ page.author }}
     {% endif %}
@@ -31,7 +31,7 @@ comments: true
   <article class="post-content">
   {{ content }}
   </article>
-  
+
   {% if page.comments %}
   <article class="comment-content">
     <div id="disqus_thread"></div>

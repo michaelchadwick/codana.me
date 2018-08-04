@@ -54,11 +54,9 @@ nav.site-links a {
   text-transform: uppercase;
 }
 nav.site-links a,
-nav.site-links a:active {
-  color: #482c02;
-}
+nav.site-links a:active,
 nav.site-links a:visited {
-  color: #a24629;
+  color: #71301c;
 }
 
 footer.site-footer {
@@ -172,6 +170,10 @@ a.pure-button-selected {
   color: #4e4d4d;
 }
 
+.subhead {
+  margin: 3px auto 20px;
+}
+
 .posts {
   padding-left: 3px;
 }
@@ -196,16 +198,11 @@ a.pure-button-selected {
   margin-bottom: 10px;
 }
 .posts .full-entry a {
-  -moz-appearance: button;
-  -webkit-appearance: button;
-  font-weight: bold;
-  margin-top: 8px;
-  text-align: center;
-  text-transform: uppercase;
+  margin-bottom: 15px;
   width: 100%;
 }
-.subhead {
-  margin: 3px auto 20px;
+.posts .full-entry a:hover {
+  text-decoration: none;
 }
 
 .highlight pre {
@@ -278,6 +275,10 @@ a.tag:hover {
   text-decoration: none;
 }
 
+.pagination {
+  margin-bottom: 20px;
+}
+
 /* individual tag page */
 h3.tag {
   background-color: rgb(136, 54, 0);
@@ -305,7 +306,8 @@ h3.tag:after {
   transform: rotate(45deg);
   width: 25px;
 }
-span.tag {
+span.tag,
+div.tag {
   font-size: 0.75rem;
 }
 

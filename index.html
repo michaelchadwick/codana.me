@@ -16,10 +16,11 @@ title:  Home
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <div class="tag">{{ post | tags }}</div>
         {% if post.content contains '<!--more-->' %}
         <p>{{ post.content | split:'<!--more-->' | first }}</p>
         <div class="full-entry">
-          <a href="{{ post.url | prepend: site.baseurl }}">Full entry</a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="pure-button pure-button-primary">Full entry</a>
         </div>
         {% endif %}
       </li>
