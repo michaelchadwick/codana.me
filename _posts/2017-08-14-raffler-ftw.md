@@ -23,6 +23,7 @@ It's now ready to unveil publicly, after a beta test at [UCCSC](https://uccsc.uc
 Raffler is largely built with HTML, CSS, and JQuery, meaning it does not use a framework or architecture of any sort beyond building a `Raffler` object with properties and methods. However, to avoid one long `app.js` spaghetti code mess, I employed [SystemJS](https://github.com/systemjs/systemjs) to properly load all of my JS files.
 
 Raffler uses three kinds of data storage: JSON, in-memory Array, and Local Storage:
+
 * Raffle items are initialized using a flat `JSON` file
 * Those items are then put into a Javascript array, i.e. `itemsArr`
 * When items are chosen, they get **removed** from `itemsArr` and sent to Local Storage, which allows Raffler to remember what was chosen, even if the browser is refreshed or closed
