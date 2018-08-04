@@ -13,6 +13,21 @@ p {
 hr {
   box-shadow: 0 1px 3px #bbb;
 }
+ul ul {
+  margin-bottom: 10px;
+}
+code.header {
+  background-color: #fff9c4;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+code .param {
+  color: red;
+}
+code .value {
+  color: green;
+}
 
 /* html structure */
 header.site-header {
