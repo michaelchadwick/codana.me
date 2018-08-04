@@ -12,9 +12,9 @@ customjs:
   <a href="{{ page.url }}"><img alt="Raffler" title="Raffler" src="/assets/images/raffler.png" width="443" height="256" /></a>
 </p>
 
-Since my [last post](/2017/04/20/fun-with-javascript-frameworks/), I've worked on [Raffler](http://raffler.win) quite a bit (it got its own domain, for one), making it **warmer**, _juicier_, and with a nice <span style='color: #8b8458; font-weight: 700;'>glaze</span> around the edges. In sum, it's approximately <span id='random-percent'>476</span>% better.
+Since my [last post](/2017/04/20/fun-with-javascript-frameworks/), I've worked on [Raffler](https://raffler.codana.me) quite a bit (it got its own domain, for one), making it **warmer**, _juicier_, and with a nice <span style='color: #8b8458; font-weight: 700;'>glaze</span> around the edges. In sum, it's approximately <span id='random-percent'>476</span>% better.
 
-It's now ready to unveil publicly, after a beta test at [UCCSC](http://uccsc.ucsd.edu), a rad tech conference recently held at [UC San Diego](http://ucsd.edu), so let's dig into it and discuss some things that changed since last we raffled items in a random fashion.
+It's now ready to unveil publicly, after a beta test at [UCCSC](https://uccsc.ucsd.edu), a rad tech conference recently held at [UC San Diego](https://ucsd.edu), so let's dig into it and discuss some things that changed since last we raffled items in a random fashion.
 
 <!--more-->
 
@@ -44,7 +44,7 @@ Raffler does this by showing no logo beyond its own, and using characters from t
 
 ### Gulp
 
-Once I started playing around with Angular for another project, I started becoming more familiar with task-runners, little apps that automate all the boring, yet often necessary, parts of running a modern web application. [Gulp](http://gulpjs.com) is one of the more popular flavors-of-the-now, so it seemed worth it to experiment.
+Once I started playing around with Angular for another project, I started becoming more familiar with task-runners, little apps that automate all the boring, yet often necessary, parts of running a modern web application. [Gulp](https://gulpjs.com) is one of the more popular flavors-of-the-now, so it seemed worth it to experiment.
 
 Raffler's application JS isn't very big (~48k), but if anything can be done to make it more compact and take up less space, it's worth it. So, I wrote a `gulp.js` file that both lints (checks code for errors and stylistic infractions) and minifies (concatenates all files into one massive one and then changes variable names to as few characters as possible, as well as removes any unnecessary spacing and comments) my Javascript. It can even set up a process to watch for changes and redo its stuff so it's always running the latest version.
 
