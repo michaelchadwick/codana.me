@@ -3,24 +3,23 @@
 
   {% include head.html %}
 
-    <body>
-    {% include google-analytics.html %}
+  <body>
 
-    <div class="overlay"></div>
+  <div class="overlay"></div>
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrap">
-        <!-- Custom JavaScript files set in YAML front matter -->
-        {% for js in page.customjs %}
-        <script async type="text/javascript" src="{{ js }}"></script>
-        {% endfor %}
-      {{ content }}
-      </div>
-    </div>
+  <div class="page-content wrap">
+    {{ content }}
+  </div>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-    </body>
+  <!-- Custom JavaScript files set in YAML front matter -->
+  {% for js in page.customjs %}
+  <script async type="text/javascript" src="{{ js }}"></script>
+  {% endfor %}
+  {% include google-analytics.html %}
+
+  </body>
 </html>

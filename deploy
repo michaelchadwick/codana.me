@@ -7,6 +7,6 @@ DIR=/var/www/codana.me/public_html/
 # build site
 bundle exec jekyll b
 # sync site, but exclude _apps
-rsync -avr --delete-after --delete-excluded --exclude=deploy --exclude=_apps _site/ ${USER}@${HOST}:${DIR}
+rsync -avz --delete-after --exclude=deploy --exclude=_apps _site/ ${USER}@${HOST}:${DIR}
 
 exit 0

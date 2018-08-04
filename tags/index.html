@@ -4,21 +4,16 @@ tags:   true
 title:  Posts by Tags
 ---
 
-<div class="subhead">Find a post by tag.</div>
+<div class="subhead">
+  Find a post by tag.
+</div>
 
 <div class="page-tags">
 
   <div id="tag-cloud">
     {% for tag in site.tags %}
-      <a href="#posts-tag" id="{{ forloop.index }}" class="tag" style="line-height: 1em; margin: 2px">{{ tag[0] | remove:'\s' }}</a>
-      <ul id="list_{{ forloop.index }}" style="display:none;">
-        {% for post in tag[1] %}
-          <li>{{ post.date | date: "%Y-%m-%d" }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
+      <a href="{{ tag[0] }}" id="{{ forloop.index }}" class="tag">{{ tag[0] | remove:'\s' }}</a>
     {% endfor %}
   </div>
-
-  <div id="posts-tags" class="post-list"></div>
 
 </div>

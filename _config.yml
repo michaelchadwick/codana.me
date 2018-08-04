@@ -2,7 +2,7 @@
 title: Codana.me
 extra_title: " | home of audio dev michael chadwick"
 email: first-name@domain
-description: "code and audio (and audio code)<br />developments by <a href='https://michaelchadwick.info'>michael chadwick</a>"
+description: "code and audio (and audio code) developments by <a href='https://michaelchadwick.info'>michael chadwick</a>"
 url: "https://codana.me"
 baseurl: ""
 plugins: [jekyll-paginate]
@@ -12,6 +12,8 @@ include: ["mus.html", "net.html", "index_print.html"]
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
+tag_page_layout: tag_page
+tag_page_dir: tags
 
 # Build settings
 markdown: kramdown
@@ -26,4 +28,6 @@ bc_username: nebyoolae
 gh_link: https://github.com/michaelchadwick
 tw_link: https://twitter.com/mjchadwick
 sc_link: https://soundcloud.com/nebyoolae
-bc_link: https://nebyoolae.bandcamp.com
+bc_neb_link: https://nebyoolae.bandcamp.com
+bc_flv_link: https://flylikevenus.bandcamp.com
+bc_pyc_link: https://pureyellow.bandcamp.com

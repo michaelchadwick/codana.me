@@ -11,4 +11,5 @@ end
 group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll_pages_api'
+  gem 'jekyll-tagging'
 end

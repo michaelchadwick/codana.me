@@ -1,28 +1,30 @@
 ---
-layout : page
-title  : Contact Me
+layout: page
+title:  Contact Me
 ---
 
-<div class="subhead">Got a question, comment, or suggestion for the bits that come together to make Codana.me? A form awaits you.</div>
+<div class="subhead">
+  Got a question, comment, or suggestion for the bits that come together to make Codana.me? A form awaits you.
+</div>
 
 <div class="page-contact">
 
   <form action="https://formspree.io/nebyoolae@gmail.com" method="post" class="pure-form pure-form-stacked">
     <fieldset>
       <legend>What's Required</legend>
-    
+
       <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-      <input type='hidden' name='redirect_to' value='https://codana.m/contact/thankyou' />
-      
+      <input type="hidden" name="redirect_to" value="/contact/thankyou" />
+
       <!-- all your input fields here.... -->
       <label for="name">Name</label>
-      <input placeholder="nom de plume" type='text' name='name' required />
+      <input placeholder="nom de plume" type="text" name="name" required />
       <label for="email">Email</label>
-      <input placeholder="e-mail ad-dress" type='email' name='email' required />
+      <input placeholder="e-mail ad-dress" type="email" name="email" required />
       <label for="message">Message</label>
-      <textarea placeholder="a little bit o' text describing your communication" name='message' cols="44" rows="5" required></textarea>
+      <textarea placeholder="a little bit o' text describing your communication" name="message" cols="44" rows="5" required></textarea>
     </fieldset>
-    
+
     <fieldset>
       <legend>What's Optional, If You're Feeling Whimsical</legend>
 
@@ -32,8 +34,8 @@ title  : Contact Me
       <label for="fave_scale">Favorite Scale?</label>
       <input placeholder="Harmonic minor" type="text" name="fave_scale" />
     </fieldset>
-    
-    <button type='submit' class="pure-button pure-button-primary">Contact Me</button>
+
+    <button type="submit" class="pure-button pure-button-primary">Contact Me</button>
   </form>
 
 </div>
