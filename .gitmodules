@@ -10,3 +10,6 @@
 [submodule "_apps/sketchage"]
 	path = _apps/sketchage
 	url = https://github.com/michaelchadwick/sketchage
+[submodule "_apps/blink"]
+	path = _apps/blink
+	url = git@github.com:michaelchadwick/blink-lookup.git
