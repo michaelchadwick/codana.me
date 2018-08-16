@@ -13,3 +13,6 @@
 [submodule "_apps/blink"]
 	path = _apps/blink
 	url = git@github.com:michaelchadwick/blink-lookup.git
+[submodule "_apps/games"]
+	path = _apps/games
+	url = git@github.com:michaelchadwick/games-portfolio.git
