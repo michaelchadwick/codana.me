@@ -3,14 +3,11 @@
 layout: post
 title:  "Raffler FTW"
 tags: js javascript standard node nodejs framework systemjs raffler uccsc ucsd gulp task-runners
+headerImage: screenshot-raffler.png
 customjs:
   - /assets/scripts/rand_perc.js
 
 ---
-
-<p>
-  <a href="{{ page.url }}"><img alt="Raffler" title="Raffler" src="/assets/images/raffler.png" width="443" height="256" /></a>
-</p>
 
 Since my [last post](/2017/04/20/fun-with-javascript-frameworks/), I've worked on [Raffler](https://raffler.codana.me) quite a bit (it got its own domain, for one), making it **warmer**, _juicier_, and with a nice <span style='color: #8b8458; font-weight: 700;'>glaze</span> around the edges. In sum, it's approximately <span id='random-percent'>476</span>% better.
 

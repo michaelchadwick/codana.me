@@ -5,21 +5,25 @@
 
   <body>
 
-  <div class="overlay"></div>
+    <div id="bucket">
 
-  {% include header.html %}
+      <div class="overlay"></div>
 
-  <div class="page-content wrap">
-    {{ content }}
-  </div>
+      {% include header.html %}
 
-  {% include footer.html %}
+      <div class="page-content wrap">
+        {{ content }}
+      </div>
 
-  <!-- Custom JavaScript files set in YAML front matter -->
-  {% for js in page.customjs %}
-  <script async type="text/javascript" src="{{ js }}"></script>
-  {% endfor %}
-  {% include google-analytics.html %}
+      {% include footer.html %}
+
+      <!-- Custom JavaScript files set in YAML front matter -->
+      {% for js in page.customjs %}
+      <script async type="text/javascript" src="{{ js }}"></script>
+      {% endfor %}
+      {% include google-analytics.html %}
+
+    </div><!-- bucket -->
 
   </body>
 </html>

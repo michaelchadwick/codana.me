@@ -1,4 +1,12 @@
 /* basic */
+body {
+  color: #333;
+}
+
+#bucket {
+  background-color: #ffe69c29;
+}
+
 a,
 a:active {
   color: #a0590a;
@@ -29,10 +37,43 @@ code .value {
   color: green;
 }
 
+/* html forms */
+form fieldset legend {
+  background: #444;
+  color: #f6f6f6;
+  padding: 5px 0 5px 10px;
+}
+form .pure-form legend {
+  background: #444;
+  color: #f6f6f6;
+  padding: 5px 0 5px 10px;
+}
+.pure-button-primary,
+.pure-button-selected,
+a.pure-button-primary,
+a.pure-button-selected {
+  background: #ff9800;
+  color: #fff;
+}
+
 /* html structure */
 header.site-header {
   background: #ffc1076a;
   max-width: 100%;
+}
+header.site-header.wrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+header.site-header .site-header-inner {
+  background: #ffc1073d;
+  height: 57px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 15px;
+}
+.page-content {
+  background-color: rgba(255, 193, 7, 0.31);
 }
 article {
   clear: left;
@@ -98,25 +139,6 @@ footer.site-footer a:hover {
 
 .wrap {
   padding: 0 15px;
-}
-
-/* html forms */
-fieldset legend {
-  background: #444;
-  color: #f6f6f6;
-  padding: 5px 0 5px 10px;
-}
-.pure-form legend {
-  background: #444;
-  color: #f6f6f6;
-  padding: 5px 0 5px 10px;
-}
-.pure-button-primary,
-.pure-button-selected,
-a.pure-button-primary,
-a.pure-button-selected {
-  background: #ff9800;
-  color: #fff;
 }
 
 /* custom ids and classes */
@@ -188,9 +210,17 @@ a.pure-button-selected {
 .post-header h4 {
   margin: 0;
 }
-.posts img {
+.posts .img-container {
+  box-shadow: 1px 1px 5px #333;
+}
+.posts img,
+.post-content img,
+.post-header-image img {
   height: auto;
   max-width: 100%;
+}
+.post-header-image {
+  margin-top: 20px;
 }
 .posts li {
   margin-bottom: 15px;
@@ -278,6 +308,10 @@ a.tag:hover {
 
 .pagination {
   margin-bottom: 20px;
+}
+.pagination > * {
+  display: inline-block;
+  margin-right: 5px;
 }
 
 /* individual tag page */

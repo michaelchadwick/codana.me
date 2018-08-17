@@ -17,6 +17,11 @@ title:  Home
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <div class="tag">{{ post | tags }}</div>
+        {% if post.headerImage %}
+        <div class="post-header-image">
+          <a href="{{ post.url }}"><img src="/assets/images/{{ post.headerImage }}" /></a>
+        </div>
+        {% endif %}
         {% if post.content contains '<!--more-->' %}
         <p>{{ post.content | split:'<!--more-->' | first }}</p>
         <div class="full-entry">

@@ -18,6 +18,11 @@ comments: true
     {% if page.tags %}
     <div class="tag">{{ page | tags }}</div>
     {% endif %}
+    {% if page.headerImage %}
+    <div class="post-header-image">
+      <a href="{{ page.url }}"><img src="/assets/images/{{ page.headerImage }}" /></a>
+    </div>
+    {% endif %}
   </header>
 
   <article class="post-content">
