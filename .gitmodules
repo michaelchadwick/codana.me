@@ -16,3 +16,6 @@
 [submodule "_apps/games"]
 	path = _apps/games
 	url = git@github.com:michaelchadwick/games-portfolio.git
+[submodule "_apps/raffler"]
+	path = _apps/raffler
+	url = git@github.com:michaelchadwick/raffler.git
