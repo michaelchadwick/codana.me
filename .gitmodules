@@ -19,3 +19,6 @@
 [submodule "_apps/raffler"]
 	path = _apps/raffler
 	url = git@github.com:michaelchadwick/raffler.git
+[submodule "_apps/gw"]
+	path = _apps/gw
+	url = git@github.com:michaelchadwick/gemwarrior-web.git
