@@ -29,6 +29,7 @@ a.formatlink {
   clear: right;
   font-weight: bold;
   margin: 0 0 5px 0;
+  min-height: 106px;
   padding: 5px;
   text-align: left;
 }
