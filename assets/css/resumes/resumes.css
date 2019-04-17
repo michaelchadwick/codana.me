@@ -4,16 +4,19 @@ a.formatlink {
   line-height: 0.3em;
 }
 .head {
-  background: #cfcfcf;
+  background: #ff98009a;
   border-bottom: 1px solid #222;
   border-top: 1px solid #222;
   clear: both;
   color: #222;
   font-size: 1.1em;
   font-weight: 600;
+  left: -15px;
   letter-spacing: 0.08em;
   padding: 6px 15px;
+  position: relative;
   text-align: left;
+  width: 100%;
 }
 .jobindent {
   clear: both;
@@ -22,7 +25,7 @@ a.formatlink {
 }
 
 .jobname {
-  background: #e9e9e9;
+  background: rgba(255, 193, 7, 0.31);
   clear: right;
   font-weight: bold;
   margin: 0 0 5px 0;

@@ -38,15 +38,21 @@ code .value {
 }
 
 /* html forms */
-form fieldset legend {
-  background: #444;
-  color: #f6f6f6;
-  padding: 5px 0 5px 10px;
-}
-form .pure-form legend {
-  background: #444;
-  color: #f6f6f6;
-  padding: 5px 0 5px 10px;
+form fieldset legend,
+.pure-form legend {
+  background: #ff98009a;
+  border-bottom: 1px solid #222;
+  border-top: 1px solid #222;
+  clear: both;
+  color: #222;
+  font-size: 1.1em;
+  font-weight: 600;
+  left: -15px;
+  letter-spacing: 0.08em;
+  padding: 6px 15px;
+  position: relative;
+  text-align: left;
+  width: 100%;
 }
 .pure-button-primary,
 .pure-button-selected,
