@@ -27,4 +27,4 @@
 	url = git@github.com:michaelchadwick/audiohash-web.git
 [submodule "_apps/omni"]
 	path = _apps/omni
-	url = git@github.com:michaelchadwick/omni.codana.me.git
+	url = git@github.com:michaelchadwick/all-my-webs.git
