@@ -22,3 +22,6 @@
 [submodule "_apps/gw"]
 	path = _apps/gw
 	url = git@github.com:michaelchadwick/gemwarrior-web.git
+[submodule "_apps/audiohash"]
+	path = _apps/audiohash
+	url = git@github.com:michaelchadwick/audiohash-web.git
