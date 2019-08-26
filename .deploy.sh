@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-jekyll build
+git push origin master
+bundle exec jekyll build
 dandelion deploy
