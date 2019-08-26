@@ -1,3 +1,3 @@
 # codana.me
 
-[Jekyll](http://jekyllrb.com) source for my code/audio development blog: [Codana.me](http://codana.me). Contains posts, projects, and contact information.
+[Jekyll](https://jekyllrb.com) source for my code/audio development blog: [Codana.me](https://codana.me). Contains posts, projects, and contact information.
