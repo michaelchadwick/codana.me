@@ -2,5 +2,6 @@ _drafts
 _site
 bower_components
 .DS_Store
-deploy
+.deploy.sh
+dandelion.yml
 Rakefile
