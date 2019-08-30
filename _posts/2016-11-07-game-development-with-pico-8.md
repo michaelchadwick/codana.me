@@ -6,7 +6,7 @@ tags: game gaming lua pico8 learning github
 
 ---
 
-<p><a href="{{ page.url }}"><img alt="Pico-8 Cart Loading" src="/assets/images/pico8-startup.gif" width="256" height="256" /></a></p>
+<p><a href="{{ page.url }}"><img alt="Pico-8 Cart Loading" src="/assets/images/posts/pico8-startup.gif" width="256" height="256" /></a></p>
 
 Spurred on by [Github's Game Off](https://github.com/github/game-off-2016) game jam, and inspired by [Hook, Line, and Thinker](https://itch.io/jam/fishing-jam-2/topic/44829/fishing-puzzle-game-in-pico-8-hook-line-and-thinker), I've decided to use [Pico-8](http://lexaloffle.com/pico-8.php) as my game engine workplace, as writing everything from scratch can be a [bit of an ordeal](/2015/06/08/gem-warrior-part-1-of-who-knows/). An all-in-one minimalist design shop, Pico-8 has the ability to do the cart, sprites, and audio all in one neat little package.
 

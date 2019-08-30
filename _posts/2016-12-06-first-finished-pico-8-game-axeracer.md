@@ -6,7 +6,7 @@ tags: axeracer game gaming lua pico8 learning github
 
 ---
 
-<p><a href="{{ page.url }}"><img alt="Axeracer gameplay" src="/assets/images/axeracer_gameplay.gif" width="256" height="256" /></a></p>
+<p><a href="{{ page.url }}"><img alt="Axeracer gameplay" src="/assets/images/posts/axeracer_gameplay.gif" width="256" height="256" /></a></p>
 
 The [Github Game Off](https://github.com/github/game-off-2016) is over, and my "finished" product is [**Axeracer**](https://games.codana.me/games/pico8/axeracer/axeracer.html) ([source](https://github.com/michaelchadwick/game-off-2016)). It's a simple, one-track racing game that has you piloting a little insect car thing with axes for antennae, all the better to "hack" through the grassy track on your way to the finish line.
 
@@ -105,7 +105,7 @@ end
 
 Using this wrapper `zspr()` method, it was a lot easier to figure out how to achieve the effect I was going for. Essentially, I had to set up a bunch of chain reactions that created a few `table`s, Pico-8's `array`, of sprite information, zoom into each sprite within, and then remove the array so the next frame updates wouldn't draw them anymore. I think I pretty much nailed it.
 
-<p><a href="{{ page.url }}"><img alt="3..2..1..GO!" src="/assets/images/axeracer_countdown.gif" width="256" height="256" /></a></p>
+<p><a href="{{ page.url }}"><img alt="3..2..1..GO!" src="/assets/images/posts/axeracer_countdown.gif" width="256" height="256" /></a></p>
 
 #### Wrapping Up
 

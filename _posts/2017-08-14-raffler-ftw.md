@@ -3,7 +3,7 @@
 layout: post
 title:  "Raffler FTW"
 tags: js javascript standard node nodejs framework systemjs raffler uccsc ucsd gulp task-runners
-headerImage: screenshot-raffler.png
+headerImage: posts/screenshot-raffler.png
 customjs:
   - /assets/scripts/rand_perc.js
 

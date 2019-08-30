@@ -3,7 +3,7 @@
 layout: post
 title:  "Utter is now Utterly"
 tags: utter utterly mac macos apple objective-c swift github cow
-headerImage: utterly.png
+headerImage: posts/utterly.png
 
 ---
 
