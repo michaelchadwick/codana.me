@@ -8,6 +8,7 @@ baseurl: ""
 plugins: [jekyll-paginate]
 paginate: 10
 encoding: UTF-8
+exclude: ["Rakefile", ".deploy.sh"]
 include: ["mus.html", "net.html", "index_print.html"]
 webrick:
   headers:
