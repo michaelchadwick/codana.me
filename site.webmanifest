@@ -1,5 +1,5 @@
 {
   "name": "Codana.me, home of audio dev, Michael Chadwick ",
   "short_name": "Codana.me",
-  "display": "standalone"
+  "display": "minimal-ui"
 }
