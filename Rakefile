@@ -2,7 +2,8 @@ task :deploy
 
 task :deploy do |t|
   sh "git push origin master"
-  sh "./deploy.sh"
+  sh "bundle exec jekyll build"
+  sh "git push prod master"
 end
 
 task :default => [:deploy]
