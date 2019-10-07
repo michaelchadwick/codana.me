@@ -224,12 +224,25 @@ footer.site-footer a:hover {
 .posts img,
 .post-content img,
 .post-header-image img {
+  border: 2px solid #444;
+  box-shadow: 0 1px 2px #888;
   height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 .post-header-image {
   margin-top: 20px;
 }
+@media (min-width: 901px) {
+  .posts img,
+  .post-content img,
+  .post-header-image img {
+    box-shadow: 0 3px 5px #888;
+    left: -1.7em;
+    position: relative;
+    width: 106%;
+  }
+}
+
 .posts li {
   margin-bottom: 15px;
 }
