@@ -22,9 +22,6 @@
 [submodule "_apps/omni"]
 	path = _apps/omni
 	url = git@github.com:michaelchadwick/all-my-webs.git
-[submodule "_apps/raffler"]
-	path = _apps/raffler
-	url = git@github.com:michaelchadwick/raffler.git
 [submodule "_apps/sketchage"]
 	path = _apps/sketchage
 	url = git@github.com:michaelchadwick/sketchage.git
