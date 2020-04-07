@@ -4,18 +4,12 @@
 [submodule "_apps/blink"]
 	path = _apps/blink
 	url = git@github.com:michaelchadwick/blink-lookup.git
-[submodule "_apps/fmm"]
-	path = _apps/fmm
-	url = git@github.com:michaelchadwick/fake-monster-movie.git
 [submodule "_apps/games"]
 	path = _apps/games
 	url = git@github.com:michaelchadwick/games-portfolio.git
 [submodule "_apps/gw"]
 	path = _apps/gw
 	url = git@github.com:michaelchadwick/gemwarrior-web.git
-[submodule "_apps/jpo"]
-	path = _apps/jpo
-	url = git@github.com:michaelchadwick/just-pick-one-site.git
 [submodule "_apps/math"]
 	path = _apps/math
 	url = git@github.com:michaelchadwick/math.git
