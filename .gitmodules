@@ -10,9 +10,6 @@
 [submodule "_apps/gw"]
 	path = _apps/gw
 	url = git@github.com:michaelchadwick/gemwarrior-web.git
-[submodule "_apps/math"]
-	path = _apps/math
-	url = git@github.com:michaelchadwick/math.git
 [submodule "_apps/omni"]
 	path = _apps/omni
 	url = git@github.com:michaelchadwick/all-my-webs.git
