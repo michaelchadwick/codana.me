@@ -236,6 +236,7 @@ footer.site-footer a:hover {
   .posts img,
   .post-content img,
   .post-header-image img {
+    background-color: #fff;
     box-shadow: 0 3px 5px #888;
     left: -1.7em;
     position: relative;
