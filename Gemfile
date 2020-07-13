@@ -6,7 +6,7 @@ group :default do
 end
 
 group :jekyll do
-  gem 'jekyll', '>=3.8'
+  gem 'jekyll', '>=3.8.7'
 end
 
 group :jekyll_plugins do
