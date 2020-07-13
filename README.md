@@ -5,4 +5,5 @@
 ## local development
 
 `$ bundle install`
+
 `$ (bundle exec) jekyll serve --watch`
