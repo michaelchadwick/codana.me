@@ -251,7 +251,12 @@ footer.site-footer a:hover {
   margin-bottom: 10px;
 }
 .posts .full-entry a {
+  box-shadow: 0 3px 5px #888;
+  left: -2.4em;
+  letter-spacing: 3px;
   margin-bottom: 15px;
+  position: relative;
+  text-transform: uppercase;
   width: 100%;
 }
 .posts .full-entry a:hover {
