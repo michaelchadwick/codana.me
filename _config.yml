@@ -1,7 +1,7 @@
 # Site settings
 title: Codana.me
 extra_title: " | home of audio dev michael chadwick"
-email: first-name@domain
+email: mike@neb.host
 description: "code and audio (and audio code) developments by <a href='https://michaelchadwick.info'>michael chadwick</a>"
 url: "https://codana.me"
 baseurl: ""
@@ -27,6 +27,7 @@ tw_username: mjchadwick
 sc_n_username: nebyoolae
 sc_mb_username: massive-battery
 bc_username: nebyoolae
+mc_link: https://michaelchadwick.info
 gh_link: https://github.com/michaelchadwick
 tw_link: https://twitter.com/mjchadwick
 sc_n_link: https://soundcloud.com/nebyoolae
