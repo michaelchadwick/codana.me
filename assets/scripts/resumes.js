@@ -1,5 +1,3 @@
-/* global $ */
-
 $(function () {
   const RESUME_RESET_CODE = 46 // delete
 
