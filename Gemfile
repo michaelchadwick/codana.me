@@ -1,12 +1,13 @@
   source 'https://rubygems.org'
 
 group :default do
-  gem 'json'
   gem 'ffi', '>=1.9.24'
+  gem 'json'
+  gem 'kramdown-parser-gfm'
 end
 
 group :jekyll do
-  gem 'jekyll', '>=3.8.7'
+  gem 'jekyll', '>=3.9.0'
 end
 
 group :jekyll_plugins do
