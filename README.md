@@ -7,3 +7,7 @@
 `$ bundle install`
 
 `$ (bundle exec) jekyll serve --watch`
+
+## third-party services
+
+* [Formspree](https://formspree.io) - [contact form](https://codana.me/contact)
