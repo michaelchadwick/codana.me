@@ -1,3 +1,4 @@
 Gemfile
 Gemfile.lock
 rsync-exclude.txt
+README.md
