@@ -3,7 +3,8 @@
 module Jekyll
   module RSSURLFilter
     def relative_urls_to_absolute(input)
-      url = "https://codana.me"
+      site = @context.registers[:site]
+      url = site.config['url']
       input.gsub('src="/', 'src="' + url + '/').gsub('href="/', 'href="' + url + '/')
     end
   end
