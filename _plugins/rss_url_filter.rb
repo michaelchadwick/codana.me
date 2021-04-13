@@ -1,3 +1,5 @@
+# https://github.com/eincs/jekyll-rss-absolute-urls
+
 module Jekyll
   module RSSURLFilter
     def relative_urls_to_absolute(input)
