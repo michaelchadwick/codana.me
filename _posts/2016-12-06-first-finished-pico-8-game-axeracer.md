@@ -3,11 +3,10 @@
 layout: post
 title:  "Axeracer, my first Pico-8 game"
 tags: axeracer game gaming lua pico8 learning github
+headerImage: posts/axeracer_gameplay.gif
 excerpt: "The Github Game Off is over, and my 'finished' product is Axeracer. It's a simple, one-track racing game that has you piloting a little insect car thing with axes for antennae, all the better to 'hack' through the grassy track on your way to the finish line."
 
 ---
-
-<p><a href="{{ page.url }}"><img alt="Axeracer gameplay" src="/assets/images/posts/axeracer_gameplay.gif" width="256" height="256" /></a></p>
 
 The [Github Game Off](https://github.com/github/game-off-2016) is over, and my "finished" product is [**Axeracer**](https://games.codana.me/games/pico8/axeracer/axeracer.html) ([source](https://github.com/michaelchadwick/game-off-2016)). It's a simple, one-track racing game that has you piloting a little insect car thing with axes for antennae, all the better to "hack" through the grassy track on your way to the finish line.
 
