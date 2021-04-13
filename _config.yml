@@ -3,6 +3,7 @@ title: Codana.me
 extra_title: " | home of audio dev michael chadwick"
 email: mike@neb.host
 description: "code and audio (and audio code) developments by <a href='https://michaelchadwick.info'>michael chadwick</a>"
+description_rss: "code and audio (and audio code) developments by michael chadwick"
 url: "https://codana.me"
 baseurl: ""
 plugins: [jekyll-paginate]
