@@ -4,6 +4,7 @@ layout: post
 title:  "Raffler FTW"
 tags: js javascript standard node nodejs framework systemjs raffler uccsc ucsd gulp task-runners
 headerImage: posts/screenshot-raffler.png
+excerpt: "Since my last post, I've worked on Raffler quite a bit (it got its own domain, for one), making it **warmer**, _juicier_, and with a nice glaze around the edges. In sum, it's approximately 476% better."
 customjs:
   - /assets/scripts/rand_perc.js
 

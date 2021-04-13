@@ -3,6 +3,7 @@
 layout: post
 title:  "Gem Warrior: Part 3 (of 3): Gemcutting 101"
 tags: game gaming ruby text adventure gemwarrior gem guide markov yaml audio yaml wrapup
+excerpt: "For the most part, Gem Warrior is done. What a blast it has been! I'm not sure I've worked so hard on a project in a long time."
 
 ---
 
@@ -289,8 +290,8 @@ I found as the months went by I kept changing my approach as to how I'd code a s
 ### Testing
 I've never been good at testing my code. TDD and BDD are acronyms I'm familiar with, but I've never gotten beyond doing basic tutorials. I *debug*, but I don't test. My methods to "test" are:
 
-  * print statements    
-  * using a debugger  
+  * print statements
+  * using a debugger
 
 These methods are all reactive, as you use them when things have already gone wrong (like you broke your code). Testing is precautionary, as it posits some kind of condition, and then you code something that satisfies it (at least in TDD). My pattern seems to be to dive right into coding the structure and features of a project, and by the time it gets sufficiently complex I'm "too far in" to start writing tests, because I'm not even sure where to begin at that point.
 

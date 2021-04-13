@@ -3,6 +3,7 @@
 layout: post
 title:  "Don't Beep When You Can Feep"
 tags: audio cli beep feep ruby wav wavfile
+excerpt: "Spending time at the command line, coding away at various things, sometimes I just want to make some noise. Of course, most of us turn to our MP3 collection or Spotify, but that wouldn't be nerdy enough nor would it involve programming, so I borne 'feep' into the world."
 
 ---
 
@@ -28,10 +29,10 @@ Searches across the Internet found several application that make sound, even in 
 
 Name chosen and purpose decided upon, I set out to make a command line tool that could make sound with the following requirements (which increased as I went along):
 
-1) Synthesize a sound from a simple waveform  
-2) Control the note/frequency, amplitude/volume, and duration  
-3) Play multiple notes at once in a chord  
-4) Play multiple notes in a row as a scale  
+1) Synthesize a sound from a simple waveform
+2) Control the note/frequency, amplitude/volume, and duration
+3) Play multiple notes at once in a chord
+4) Play multiple notes in a row as a scale
 
 One thing I quickly found was that to make a computer utter a simple "FEEP!" sound via CLI is not exactly intuitive, nor is it consistent across all operating systems. Here are just some of the examples I tried, but there are more:
 
