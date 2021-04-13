@@ -1,12 +1,15 @@
 # Site settings
 title: Codana.me
+author: Michael Chadwick
 extra_title: " | home of audio dev michael chadwick"
 email: mike@neb.host
-description: "code and audio (and audio code) developments by <a href='https://michaelchadwick.info'>michael chadwick</a>"
-description_rss: "code and audio (and audio code) developments by michael chadwick"
+description_html: "code and audio (and audio code) developments by <a href='https://michaelchadwick.info'>michael chadwick</a>"
+description: "code and audio (and audio code) developments by michael chadwick"
 url: "https://codana.me"
 baseurl: ""
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
 paginate: 10
 encoding: UTF-8
 exclude: ["Rakefile", ".deploy.sh"]
@@ -22,7 +25,6 @@ markdown: kramdown
 permalink: pretty
 
 # Custom Site settings
-my_name: Michael Chadwick
 gh_username: michaelchadwick
 tw_username: mjchadwick
 sc_n_username: nebyoolae

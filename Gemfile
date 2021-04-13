@@ -12,6 +12,7 @@ group :jekyll do
 end
 
 group :jekyll_plugins do
+  gem 'jekyll-feed'
   gem 'jekyll-paginate'
   gem 'jekyll_pages_api', :git => 'https://github.com/chosak/jekyll_pages_api'
   gem 'jekyll-tagging'
