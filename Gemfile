@@ -1,4 +1,4 @@
-  source 'https://rubygems.org'
+source 'https://rubygems.org'
 
 group :default do
   gem 'ffi', '>=1.15'
