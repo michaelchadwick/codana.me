@@ -7,9 +7,6 @@
 [submodule "_apps/games"]
 	path = _apps/games
 	url = git@github.com:michaelchadwick/games-portfolio.git
-[submodule "_apps/gw"]
-	path = _apps/gw
-	url = git@github.com:michaelchadwick/gemwarrior-web.git
 [submodule "_apps/omni"]
 	path = _apps/omni
 	url = git@github.com:michaelchadwick/all-my-webs.git
